@@ -1,0 +1,5 @@
+The secure version uses app.use(session to make sure that the userId is the same with the
+request user, it prevents privilege escalation.
+I think it can be proved with 2 factor authentication, such that if a unauthorized user
+still gets a high privilege user's access somehow, he still needs password or other methods for
+his other operations.

@@ -1,0 +1,4 @@
+The secure version prevent XSS by escaping users' inputs, so that the browser will not
+execute the users' input directly, so it prevents hijack and stealing user information.
+
+Tampering violates Integrity.

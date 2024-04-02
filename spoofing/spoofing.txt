@@ -1,1 +1,7 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+The secure version uses httpOnly: true to prevent access to cookie, so that XSS can't
+get the cookie.
+The sameSite: true prevent CSRF attacks, it allows the browser to send cookie only if the
+request is from the same site.
+The secure version prevent both of the above aspects from happening.
+Spoofing violates Confidentiality.

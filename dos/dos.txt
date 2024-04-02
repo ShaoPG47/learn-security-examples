@@ -1,2 +1,7 @@
 - Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+The secure version uses try and catch to prevent DOS attacks by using id, so that a bad id will not
+lead to server crash.
+
 - What additional security mechanisms can you incorporate to prevent such attacks?
+It can implement rate limiting for those address that is sending unusual amount of request,
+so that high volume requests will not lead to server crash because of the capacity of the server.
