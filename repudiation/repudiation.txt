@@ -1,2 +1,7 @@
 - Briefly explain the vulnerability and why the secure version is better at preventing repudiation than the insecure version.
+The secure version tracks user's activities and info by logs, so that all user's activities will
+be recorded.
+
+
 - What additional security mechanisms can you incorporate to prevent such attacks?
+Encrypt logs

@@ -1,3 +1,8 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+The secure version prevents nosql injection attacks by check if the username is string, and replaced all symbols with empty.
+
 Which CIA property does tampering violate?
+Confidentiality
+
 What additional security mechanisms can you incorporate?
+It can be improved by limiting the users' inputs, the length or characters.
